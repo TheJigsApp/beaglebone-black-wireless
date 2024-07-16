@@ -1,0 +1,76 @@
+(footprint "TESTPAD_W_HOLE_1X1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.27 0.508 0)
+		(layer "F.SilkS")
+		(uuid "de676779-6c8c-4da5-a132-300a3745b5a4")
+		(effects
+			(font
+				(size 0.89408 0.89408)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "TESTPAD_W_HOLE_1X1"
+		(at -1.27 2.54 0)
+		(layer "F.Fab")
+		(uuid "4a68e38d-0f27-4a3b-81b8-0463d0b5b755")
+		(effects
+			(font
+				(size 0.89408 0.89408)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c458cc4-96f3-4e13-abf5-59ad889bae37")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62ae094c-3929-41d0-bf02-41fbafad94c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7764de59-6857-4549-8016-ac90fa28f95c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "P$1" thru_hole circle
+		(at 0 0)
+		(size 1.6256 1.6256)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "795e142c-7756-4871-8c3a-1b781da20650")
+	)
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "BeagleBone_Black_Wireless-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/BeagleBone_Black_Wireless-eagle-import.kicad_sym")(options "")(descr ""))
+)

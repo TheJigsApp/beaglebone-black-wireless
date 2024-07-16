@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BeagleBone_Black_Wireless")(type "KiCad")(uri "$(KIPRJMOD)/BeagleBone_Black_Wireless.pretty")(options "")(descr ""))
+)

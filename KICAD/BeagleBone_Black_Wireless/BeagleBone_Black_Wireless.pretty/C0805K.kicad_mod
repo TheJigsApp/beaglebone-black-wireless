@@ -1,0 +1,137 @@
+(footprint "C0805K"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Ceramic Chip Capacitor KEMET 0805 Reflow solder\n\nMetric Code Size 2012")
+	(property "Reference" "REF**"
+		(at -1 -0.875 0)
+		(layer "F.SilkS")
+		(uuid "5e0ed00e-e649-43d5-837b-b9a3721708f1")
+		(effects
+			(font
+				(size 0.93472 0.93472)
+				(thickness 0.08128)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "C0805K"
+		(at -1 1.9 0)
+		(layer "F.Fab")
+		(uuid "217ca29f-3603-4991-a78d-f2534d2033bc")
+		(effects
+			(font
+				(size 0.93472 0.93472)
+				(thickness 0.08128)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "116c7a85-42e5-4c05-83f5-d410b93ffee5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2266c24-5a22-4150-88de-3253e547e8b8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ecd23059-e435-4643-89f6-54902ee66583")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 0 -0.762)
+		(end 0 0.762)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "700901c4-fd30-4a5b-a93e-595906295cb6")
+	)
+	(fp_line
+		(start -0.925 -0.6)
+		(end 0.925 -0.6)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f00afa8f-b616-4b48-93be-73c595a3ad1a")
+	)
+	(fp_line
+		(start 0.925 0.6)
+		(end -0.925 0.6)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d6ea37c9-8c35-4867-b56b-21c9e56c8b0e")
+	)
+	(fp_poly
+		(pts
+			(xy -1 0.65) (xy -0.5 0.65) (xy -0.5 -0.65) (xy -1 -0.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "d77642f6-79f4-4c66-86b4-7beb448cf681")
+	)
+	(fp_poly
+		(pts
+			(xy 0.5 0.65) (xy 1 0.65) (xy 1 -0.65) (xy 0.5 -0.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "19911c65-f856-4a64-a172-ee53a07987ad")
+	)
+	(pad "1" smd rect
+		(at -1 0)
+		(size 1.3 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "330151df-7533-4ce1-bd80-1f532b2ed843")
+	)
+	(pad "2" smd rect
+		(at 1 0)
+		(size 1.3 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "c1cade78-164d-4614-9de6-edcb6a4baa21")
+	)
+)
